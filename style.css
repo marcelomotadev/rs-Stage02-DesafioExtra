@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --dosis: 'Dosis', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #3f3d56;
+  font-size: 62.5%;
+}
+
+#content {
+  width: 62.6rem;
+  margin: 6.4rem auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+#content h1 {
+  width: 49.4rem;
+  margin-top: 6rem;
+  font-family: var(--dosis);
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+#content h1 span {
+  color: #ee24ff;
+  font-weight: 700;
+}
+
+#content p {
+  width: 54rem;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  color: #828282;
+}
+
+#content p span {
+  color: #3f3d56;
+  font-weight: bold;
+}
+
+#content img {
+  max-width: 35rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-top: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer #links {
+  display: flex;
+  margin-bottom: 4rem;
+  text-decoration: none;
+  color: inherit;
+  gap: 4.2rem;
+}
+
+footer #links a {
+  color: #3f3d56;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+footer #links a:hover {
+  color: #ee24ff;
+}
+
+footer img {
+  width: 100vw;
+  margin-bottom: 0;
+}
