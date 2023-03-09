@@ -24,7 +24,7 @@
 
 #content h1 {
   width: 49.4rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
   font-family: var(--dosis);
   text-align: center;
   font-size: 3.2rem;
@@ -57,9 +57,6 @@
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   padding-top: 1.6rem;
 
   display: flex;
