@@ -24,7 +24,7 @@
 
 #content h1 {
   width: 49.4rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
   font-family: var(--dosis);
   text-align: center;
   font-size: 3.2rem;
@@ -57,7 +57,13 @@
 }
 
 footer {
+  position: relative;
   padding-top: 1.6rem;
+
+  border: none;
+  border-top: 1px solid #ECEFF2;
+  width: 39rem;
+  margin: 6.4rem auto 0;
 
   display: flex;
   flex-direction: column;
@@ -86,4 +92,19 @@ footer #links a:hover {
 footer img {
   width: 100vw;
   margin-bottom: 0;
+}
+
+@media (min-height: 750px) {
+  footer {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    min-width: 39rem;
+    left: 0;
+  }
+
+  footer #links {
+    margin-bottom: 9rem;
+  }
 }
